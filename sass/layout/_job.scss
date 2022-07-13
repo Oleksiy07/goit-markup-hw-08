@@ -1,0 +1,30 @@
+.our-job {
+    display: flex;
+}
+
+.our-job__item {
+    position: relative;
+}
+
+.our-job__item + .our-job__item {
+    margin-left: 30px;
+}
+
+.our-job__title {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
